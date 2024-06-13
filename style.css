@@ -383,14 +383,17 @@ line-height: 50px;
 
 
 .grid-section-four{
+  
+
     position: relative;
     top: 200px;
     margin: 0 auto;
     width: 90%;
     height: 80vh;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
+    grid-template-columns:  1fr 1fr 1fr;
+    gap: 40px;
+  
     
    
 }
@@ -438,19 +441,21 @@ line-height: 50px;
      font-size: 1rem;
      border-radius: 8px;
    font-weight: 400;
-     margin-bottom: 100px;
+     /* margin-bottom: 100px; */
   
 }
 
 .training-box img{
     max-width: 90px;
     height: 90px;
+    
 }
 
 .training-class{
   width: 100%;
   margin: 0 auto;
    display: flex;
+   grid-column: 2 / span 3;
    flex-direction: column;
    gap: 20px;
 
@@ -468,10 +473,10 @@ line-height: 50px;
 }
 
 
-/* .training-class img{
+.training-class img{
     width: 100%;
     border-radius: 8px;
-} */
+}
 
 .btn-box2 h1{
 
@@ -484,16 +489,16 @@ line-height: 50px;
     justify-content: center;
     font-size: 14px;
     font-weight: 400;
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
 }
 
 .yogo-section{
 position: relative;
-  top: 700px;
+  top: 400px;
   width: 98%;
    margin: 0 auto;
    
-  height: 150vh;
+  height:200vh;
    background: white;
 
   background-image: url('https://templatemo.com/templates/templatemo_548_training_studio/assets/images/schedule-bg.jpg');
@@ -502,19 +507,41 @@ position: relative;
   margin-bottom: 800px;
 }
 
+
+.yogo-section .section-features span{
+
+  font-size: 14px !important;
+ line-height: 30px;
+}
+
+
 .days{
   position: relative;
-top: 60px;
+top: 100px;
   display: flex;
+
   gap: 20px;
   align-items: center;
   justify-content: center;
   color: white;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
+}
+
+.three-days{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.two-days{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
 }
 
 table {
-  
+   
   width: 60%;
   border-collapse: collapse;
   
@@ -1178,6 +1205,75 @@ max-height: 80px;
   font-weight: 400;
 margin-bottom: 100px;
 }
+
+
+
+.yogo-section{
+  position: relative;
+    top: 400px;
+    width: 98%;
+     margin: 0 auto;
+     
+    height:210vh;
+     background: white;
+  
+    background-image: url('https://templatemo.com/templates/templatemo_548_training_studio/assets/images/schedule-bg.jpg');
+    background-position: cover;
+
+  }
+  
+  
+  .yogo-section .section-features span{
+  
+    font-size: 14px !important;
+   line-height: 30px;
+  }
+  
+  
+  .days{
+    position: relative;
+  top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+   
+  }
+  
+  .three-days{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .two-days{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  table {
+     
+    width: 90%;
+    border-collapse: collapse;
+    
+  
+  }
+  
+  table,tr,td{  
+    border: 1px solid white;
+  text-align: center;
+  margin: 0 auto;
+  }
+  
+  td{
+    text-align: center;
+    line-height: 40px;
+    color: white;
+  }
 
 
     
