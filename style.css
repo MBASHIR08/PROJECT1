@@ -5,7 +5,7 @@
 }
 
 img{
-    width: 95%;
+    width: 98%;
 }
 
 video{
@@ -22,7 +22,7 @@ video{
    }
 
 .container {
-    width: 95%;
+    width: 98%;
     margin: 0px auto;
      max-height: 100vh;
  }
@@ -36,14 +36,14 @@ video{
  } */
 
 .header{
-    width: 95%;
+    width: 98%;
     margin: 0 auto;
     display: flex;
 }
 
 .desktop{
     top: 0;
-    width: 95%;
+    width: 98%;
     margin: 0 auto;
     position: absolute;
     background-attachment: fixed;
@@ -102,14 +102,14 @@ video{
 .content-section {
 
     position: absolute;
-    width: 95%;
+    width: 98%;
     top: 10px;
     height: 100vh;
     background-color: rgba(35, 45, 57, 0.8);
 
   }
 .hero-section {
-   width: 95%;
+   width: 98%;
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -142,7 +142,6 @@ video{
     gap: 15px;
     align-items: center;
     justify-content: center;
-    font-size: rem;
     font-weight: 800;
     margin-bottom: 50px;
     margin-top: 30px;
@@ -181,8 +180,11 @@ a{
         display: none;
      }
 
+
+
      
     .mobile-menu{
+        top: 0;
         width: 100%;
        margin: 0 auto;
        margin-top: 10px;
@@ -317,5 +319,78 @@ a{
         color: #f19687;
         font-size: 1rem;
     }
+
+
+    
+.content-section {
+
+    position: absolute;
+    width: 98%;
+    top: 10px;
+    height: 100vh;
+    background-color: rgba(35, 45, 57, 0.8);
+
+  }
+.hero-section {
+   width: 98%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+ 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+.hero-section h6{
+   
+    margin-top: 0;
+   
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: white;
+    letter-spacing: 0.5px;
+  
+}
+
+
+.easy-gym{
+
+  margin-top: 50px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: 800;
+    margin-bottom: 50px;
+    margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: 1px;
+  
+   
+}
+
+  .btn-link{
+    text-decoration: none;
+    background-color: #ed563b;
+    color: white;
+   font-style: 1.5rem;
+    padding: 20px 30px;
+
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
     
 }
