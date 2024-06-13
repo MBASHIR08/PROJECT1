@@ -504,7 +504,7 @@ position: relative;
   background-image: url('https://templatemo.com/templates/templatemo_548_training_studio/assets/images/schedule-bg.jpg');
   background-position: cover;
 
-  margin-bottom: 800px;
+  margin-bottom: 400px;
 }
 
 
@@ -560,6 +560,20 @@ td{
   color: white;
 }
 
+
+.Expert-section{
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.Expert-section .section-features span{
+  font-size: 14px !important;
+  color: rgba(86, 86, 86, 0.749);
+  text-align: center;
+  line-height: 30px;
+  
+}
 .grid-trainers{
   position: relative;
   top: 80px;
@@ -583,13 +597,14 @@ td{
 }
 
 .three-boxes img{
-  width: 600px;
-  height:300px;
+  width: 100%;
+  height:100%;
 }
 
 .three-boxes p{
-  line-height: 40px;
-  font-size: 1rem;
+  line-height: 20px;
+  font-size: 10px !important;
+  color: rgba(65, 63, 63, 0.817);
 }
  ul{
 
@@ -602,13 +617,12 @@ ul li{
   text-align: center;
 }
 
-.social-media i{
+.social-media ul li  i{
   
   display: flex;
   gap: 20px;
   color: black;
   font-size: 24px;
-
  padding-bottom: 20px;
 }
 
@@ -1214,12 +1228,12 @@ margin-bottom: 100px;
     width: 98%;
      margin: 0 auto;
      
-    height:210vh;
+    height:130vh;
      background: white;
   
     background-image: url('https://templatemo.com/templates/templatemo_548_training_studio/assets/images/schedule-bg.jpg');
     background-position: cover;
-
+margin-bottom: 400px;
   }
   
   
@@ -1275,6 +1289,66 @@ margin-bottom: 100px;
     color: white;
   }
 
+
+  .Expert-section .section-features span{
+    font-size: 14px !important;
+    color: rgba(86, 86, 86, 0.749);
+    text-align: center;
+    line-height: 30px;
+    
+  }
+  .grid-trainers{
+    position: relative;
+    top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 80%;
+    margin: 0 auto;
+    height: 100vh;
+    margin-bottom: 900px;
+  }
+  
+  .three-boxes{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 90vh;
+    padding: 50px;
+    gap: 30px;
+  
+    box-shadow: 2px 4px 12px 2px rgba(183, 183, 183, 0.7);
+  }
+  
+  .three-boxes img{
+    width: 100%;
+    height:100%;
+  }
+  
+  .three-boxes p{
+    line-height: 20px;
+    font-size: 10px !important;
+    color: rgba(65, 63, 63, 0.817);
+  }
+   ul{
+  
+    display: flex;
+    gap: 30px; 
+  }
+  
+  ul li{
+   list-style-type: none;
+    text-align: center;
+  }
+  
+  .social-media ul li  i{
+    
+    display: flex;
+    gap: 20px;
+    color: black;
+    font-size: 24px;
+   padding-bottom: 20px;
+  }
 
     
 }
