@@ -298,15 +298,28 @@ line-height: 50px;
 }
 
 .think-colors{
+  width: 100%;
     display: flex;
-   gap: 10px;
+    align-items: center;
+    justify-content: center;
+   gap: 20px;
    font-size: 1.5rem;
    font-weight: 800;
 }
 
+.think{
+  display: flex;
+
+}
+
+.h1colors{
+  display: flex;
+
+}
+
 .line-qoraal{
     color: white;
-    font-size: 1.4rem;
+    font-size: 1rem;
 }
 
 .btn-link2{
@@ -989,6 +1002,62 @@ line-height: 20px;
 .box-details a{
   color: #ed563b;
   text-decoration: none;
+}
+
+
+.third-section{
+  width: 98%;
+  margin: 0 auto;
+  margin-top: 400px;
+   max-height: 100vh;
+  height: 80vh;
+  background-image: url('https://templatemo.com/templates/templatemo_548_training_studio/assets/images/cta-bg.jpg');
+
+
+}
+
+.third-subsection{
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 400px;
+ padding: 20px;
+  height: 80vh;
+ line-height: 40px;
+
+
+}
+
+.think-colors{
+width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ gap: 20px;
+ font-size: 1.5rem;
+ font-weight: 800;
+}
+
+
+.line-qoraal{
+  width: 100%;
+  color: white;
+  font-size: 14px;
+}
+
+.btn-link2{
+  background-color: #ed563b;
+  color: white;
+  font-size: 1rem;
+  padding: 15px 20px;
+
 }
 
 
