@@ -843,7 +843,7 @@ height: 100px;
 
     .menu-link{
         width: 100%;
-        height: 130vh;
+        height: 150vh;
         position: relative;
         top: 20px;
         padding-top: 20px;
@@ -852,7 +852,7 @@ height: 100px;
         gap: 10px;
         align-items: center;
         justify-content: space-between;
-        background-color: rgb(3, 3, 26);
+        background-color: rgba(3, 3, 36, 0.865);
         padding-bottom: 70px;
         
     }
@@ -885,7 +885,7 @@ height: 100px;
     .SignUpbtn button{
       margin-top: 10px;
         border: none;
-        background-color: #3aede7;
+        background-color: #ed563b;
         width: 100%;
         padding: 15px 72px;
         color: white; 
